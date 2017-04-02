@@ -1,0 +1,43 @@
+<div class="w3-white w3-text-grey w3-card-4">
+
+    <div class="w3-display-container" style="padding-bottom: 15px;">
+        <img src="{{ "/assets/img/avatar.png" | relative_url }}" style="width:100%" alt="Avatar">
+        <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Michał Jurkowski</h2>
+        </div>
+    </div>
+
+    <div class="w3-container margin-bottom-15">
+        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Programmer</p>
+        <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Gdańsk, Poland</p>
+        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>contact.michal.jurkowski@gmail.com</p>
+
+        <hr>
+
+        <p class="w3-large"><b><i class="fa fa-terminal fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+
+        <a href="/backend">
+            <button class="w3-button w3-black w3-block w3-teal margin-bottom-10 w3-hover-teal">Backend</button>
+        </a>
+
+        <a href="/frontend">
+            <button class="w3-button w3-black w3-block w3-teal margin-bottom-10 w3-hover-teal">Frontend</button>
+        </a>
+
+        <a href="/scripting">
+            <button class="w3-button w3-black w3-block w3-teal margin-bottom-10 w3-hover-teal">Scripting</button>
+        </a>
+
+        <a href="/projects">
+            <button class="w3-button w3-black w3-block w3-teal margin-bottom-10 w3-hover-teal">Projects</button>
+        </a>
+
+        {% if page.url != "/" %}
+            <a href="/">
+                <button class="w3-button w3-black w3-block w3-teal margin-bottom-10 w3-hover-teal">Main Page</button>
+            </a>
+        {% endif %}
+
+        <br>
+    </div>
+</div>

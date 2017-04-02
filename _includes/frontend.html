@@ -1,0 +1,19 @@
+{% for post in site.categories.frontend %}
+    <div class="w3-third w3-container w3-margin-bottom">
+        <div class="w3-container w3-card-2 w3-white" style="margin-bottom: 15px;">
+            {% if post.photo %}
+            <div class="flex-container" style="height: 300px;">
+                <a href="{{ post.external_link }}">
+                    <div style="text-align: center; padding-top: 10px;">
+                        <img src="{{ post.photo }}" style="width:100%" alt="{{ post.photo }}">
+                    </div>
+                </a>
+            </div>
+            {% endif %}
+            <div class="w3-container w3-center flex-container" style="height: 50px; margin-top: 10px;">
+                <div>{{ post.title}}</div>
+            </div>
+            <br>
+        </div>
+    </div>
+{% endfor %}

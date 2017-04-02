@@ -1,0 +1,10 @@
+---
+
+title:  "Vagrant"
+date:   2017-03-31
+categories: backend
+category: Backend
+photo: /assets/img/VAGRANT-logo.png
+external_link: https://www.vagrantup.com/
+---
+

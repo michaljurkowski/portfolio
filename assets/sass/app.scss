@@ -1,0 +1,60 @@
+---
+---
+.page-height {
+    min-height: calc(100vh - (98px + 16px));
+}
+
+$class-slug: margin !default;
+
+@for $i from 1 through 70 {
+  .#{$class-slug}-top-#{$i} {
+    margin-top: 0px + $i;
+    }
+}
+
+@for $i from 1 through 70 {
+  .#{$class-slug}-bottom-#{$i} {
+    margin-bottom: 0px + $i;
+    }
+}
+
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+/*css color ovverride*/
+
+$color-1: #1e88e5;
+$color-1-dark: darken($color-1, 15%);
+
+.w3-text-teal {
+    color:$color-1 !important
+}
+.w3-teal {
+    color:#fff!important;
+    background-color:$color-1!important
+}
+
+.w3-hover-teal:hover {
+    color:#fff!important;
+    background-color:$color-1-dark!important
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:#3f51b5;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.flex-container {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+    {% include head.html %}
+    <body>
+        <!-- Page Container -->
+        <div class="w3-content w3-margin-top page-height" style="max-width:1400px;">
+            <!-- The Grid -->
+            <div class="w3-row-padding">
+                <!-- Left Column -->
+                <div class="w3-third">
+                    {% include left-side.html %}
+                <!-- End Left Column -->
+                </div>
+                <!-- Right Column -->
+                <div class="w3-twothird">
+                    {% if page.url == "/" %}
+                        {% include work.html %}
+                        {% include education.html %}
+                    {% endif %}
+
+                    {% if page.url == "/backend/" %}
+                        {% include backend.html %}
+                    {% endif %}
+
+                    {% if page.url == "/frontend/" %}
+                        {% include frontend.html %}
+                    {% endif %}
+
+                    {% if page.url == "/scripting/" %}
+                        {% include scripting.html %}
+                    {% endif %}
+
+                    {% if page.url == "/projects/" %}
+                        {% include projects.html %}
+                    {% endif %}
+
+                <!-- End Right Column -->
+                </div>
+            <!-- End Grid -->
+            </div>
+        <!-- End Page Container -->
+        </div>
+        {% include footer.html %}
+    </body>
+</html>

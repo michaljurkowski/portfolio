@@ -1,0 +1,9 @@
+---
+
+title:  "Jquery"
+date:   2017-03-31
+categories: scripting
+category: Scripting
+photo: /assets/img/JQUERY-logo.png
+external_link: https://jquery.com/
+---
