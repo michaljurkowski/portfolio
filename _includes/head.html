@@ -7,7 +7,9 @@
         <title>Portfolio</title>
     {% endif %}
 
-    <title>{% if page.title %}{{ page.title | escape }}{{% endif %}</title>
+    {% if page.url != "/" %}
+        <title>{{ page.title | escape }}</title>
+    {% endif %}
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
     <link rel="stylesheet" href="{{ "/assets/sass/main.css" | relative_url }}">
