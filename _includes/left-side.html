@@ -20,20 +20,20 @@
             <button class="w3-button w3-black w3-block w3-teal margin-bottom-10 w3-hover-teal">Backend</button>
         </a>
 
-        <a href="/frontend">
+        <a href="{{ site.baseurl }}/frontend">
             <button class="w3-button w3-black w3-block w3-teal margin-bottom-10 w3-hover-teal">Frontend</button>
         </a>
 
-        <a href="/scripting">
+        <a href="{{ site.baseurl }}/scripting">
             <button class="w3-button w3-black w3-block w3-teal margin-bottom-10 w3-hover-teal">Scripting</button>
         </a>
 
-        <a href="/projects">
+        <a href="{{ site.baseurl }}/projects">
             <button class="w3-button w3-black w3-block w3-teal margin-bottom-10 w3-hover-teal">Projects</button>
         </a>
 
         {% if page.url != "/" %}
-            <a href="/">
+            <a href="{{ site.baseurl }}/">
                 <button class="w3-button w3-black w3-block w3-teal margin-bottom-10 w3-hover-teal">Main Page</button>
             </a>
         {% endif %}
