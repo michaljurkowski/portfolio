@@ -1,45 +1,60 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
     {% include head.html %}
-    <body>
-        <!-- Page Container -->
-        <div class="w3-content w3-margin-top page-height" style="max-width:1400px;">
-            <!-- The Grid -->
-            <div class="w3-row-padding">
-                <!-- Left Column -->
-                <div class="w3-third">
-                    {% include left-side.html %}
-                <!-- End Left Column -->
-                </div>
-                <!-- Right Column -->
-                <div class="w3-twothird">
-                    {% if page.url == "/" %}
-                        {% include work.html %}
-                        {% include education.html %}
-                    {% endif %}
+    <body class="w3-light-grey w3-content" style="max-width:1920px">
 
-                    {% if page.url == "/backend/" %}
-                        {% include backend.html %}
-                    {% endif %}
+{% include left-side.html %}
 
-                    {% if page.url == "/frontend/" %}
-                        {% include frontend.html %}
-                    {% endif %}
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
 
-                    {% if page.url == "/scripting/" %}
-                        {% include scripting.html %}
-                    {% endif %}
+  <!-- Header -->
+  <header>
+    <a href="#"><img src="{{ "/assets/img/avatar.png" | relative_url }}" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="floating-button w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()" style="z-index: 500; display: none; position: fixed; top: 0; right: 0; margin-right: 10px; margin-bottom: 10px;" >
+    <i class="fa fa-bars"></i>
+    </div>
+  </header>
 
-                    {% if page.url == "/projects/" %}
-                        {% include projects.html %}
-                    {% endif %}
 
-                <!-- End Right Column -->
-                </div>
-            <!-- End Grid -->
-            </div>
-        <!-- End Page Container -->
-        </div>
-        {% include footer.html %}
-    </body>
+    <div id="projects" class="w3-container">
+        <h1><b>Projects</b></h1>
+    </div>
+   {% include projects.html %}
+
+    <!-- Backend Grid-->
+    <div id="backend" class="w3-container">
+        <h1><b>Backend Skills</b></h1>
+    </div>
+    {% include backend.html %}
+
+    <!-- Frontend Grid-->
+    <div id="frontend" class="w3-container">
+        <h1><b>Frontend Skills</b></h1>
+    </div>
+    {% include frontend.html %}
+
+    <!-- Scripting Grid-->
+    <div id="scripting" class="w3-container">
+        <h1><b>Scripting Scills</b></h1>
+    </div>
+    {% include scripting.html %}
+
+
+    {% include contact.html %}
+
+    {% include footer.html %}
+
+<!-- End page content -->
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous">
+</script>
+<script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+
+
+</body>
 </html>

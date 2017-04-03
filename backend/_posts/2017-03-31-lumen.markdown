@@ -7,4 +7,4 @@ category: Backend
 photo: /assets/img/LUMEN-logo.png
 external_link: https://lumen.laravel.com/
 ---
-backend php
+The stunningly fast micro-framework by Laravel.

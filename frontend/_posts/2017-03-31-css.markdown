@@ -7,3 +7,4 @@ category: Frontend
 photo: /assets/img/CSS3-logo.png
 external_link: https://developer.mozilla.org/pl/docs/Web/CSS/CSS3
 ---
+Cascading Style Sheet.

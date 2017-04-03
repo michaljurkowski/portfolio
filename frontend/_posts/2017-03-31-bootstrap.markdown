@@ -7,3 +7,4 @@ category: Frontend
 photo: /assets/img/BOOTSTRAP-logo.gif
 external_link: http://getbootstrap.com/
 ---
+Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.

@@ -7,4 +7,4 @@ category: Backend
 photo: /assets/img/VAGRANT-logo.png
 external_link: https://www.vagrantup.com/
 ---
-
+Easy workflow regardless of your role.

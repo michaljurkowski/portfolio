@@ -7,3 +7,4 @@ category: Backend
 photo: /assets/img/PHP-logo.png
 external_link: https://secure.php.net/
 ---
+PHP is a popular general-purpose scripting language that is especially suited to web development.

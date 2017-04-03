@@ -7,3 +7,4 @@ category: Backend
 photo: /assets/img/MYSQL-logo.png
 external_link: https://www.mysql.com/
 ---
+The world's most popular open source database.

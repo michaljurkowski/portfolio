@@ -7,3 +7,4 @@ category: Backend
 photo: /assets/img/COMPOSER-logo.png
 external_link: https://getcomposer.org/
 ---
+Dependency Manager for PHP.

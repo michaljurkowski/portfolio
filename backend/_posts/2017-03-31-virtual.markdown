@@ -7,4 +7,4 @@ category: Backend
 photo: /assets/img/VIRTUAL-logo.jpg
 external_link: https://www.virtualbox.org/
 ---
-
+VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use.

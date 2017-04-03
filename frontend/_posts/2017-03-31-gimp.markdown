@@ -7,3 +7,4 @@ category: Frontend
 photo: /assets/img/GIMP-logo.png
 external_link: https://www.gimp.org/
 ---
+The Free & Open Source Image Editor.
