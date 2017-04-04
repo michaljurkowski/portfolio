@@ -6,4 +6,4 @@ categories: projects
 external_link: http://www.podralscy.pl/
 photo: /assets/img/podralscy.png
 ---
-projects
+Webpage for dental services.

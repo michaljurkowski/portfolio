@@ -7,3 +7,4 @@ category: Scripting
 photo: /assets/img/JS-logo.png
 external_link: https://www.javascript.com/
 ---
+Programming language commonly used in web development.

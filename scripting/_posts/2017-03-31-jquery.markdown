@@ -7,3 +7,4 @@ category: Scripting
 photo: /assets/img/JQUERY-logo.png
 external_link: https://jquery.com/
 ---
+Javascript library.

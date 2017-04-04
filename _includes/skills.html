@@ -1,8 +1,12 @@
 <div class="w3-quarter w3-container w3-margin-bottom">
-  <div class="w3-card-4 flex-container" style="width:100%">
-    <img src="{{ site.baseurl }}{{ post.photo }}" alt="{{ post.photo }}">
-    <div class="w3-container w3-center" style="height:90px">
-      <p>{{ post.content }}</p>
-    </div>
-  </div>
+    <a href="{{ post.external_link }}" style="color: black;">
+      <div class="w3-card-4 flex-container" style="width:100%">
+        <img src="{{ site.baseurl }}{{ post.photo }}" alt="{{ post.photo }}">
+        <div class="w3-container w3-center flex-container" style="height:90px; overflow: hidden;">
+            <div style="padding-top: 10px;">
+                <p>{{post.content}}</p>
+            </div>
+        </div>
+      </div>
+    </a>
 </div>

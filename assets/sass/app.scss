@@ -1,5 +1,9 @@
 ---
 ---
+
+p {
+    margin-bottom: 0;
+}
 .page-height {
     min-height: calc(100vh - (98px + 16px));
 }
