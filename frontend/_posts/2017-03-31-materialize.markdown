@@ -7,4 +7,4 @@ category: Frontend
 photo: /assets/img/MATERIALIZE.png
 external_link: http://materializecss.com/
 ---
-A modern responsive front-end framework based on Material Design.
+A modern front-end framework based on Material Design.
