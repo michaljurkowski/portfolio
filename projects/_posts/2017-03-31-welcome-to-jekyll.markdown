@@ -8,8 +8,16 @@ external_link: http://www.podralscy.pl/
 photo: /assets/img/podralscy.png
 modal: id1
 tags:
-- all
-- portfolio
-- something
+- laravel 5.3
+- vagrant
+- virtualbox
+- php
+- composer
+- sass
+- materialized
+- html 5
+- css 3
+- bootstrap
+- JQuery
 ---
 Webpage for dental services.
