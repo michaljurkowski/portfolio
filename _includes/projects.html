@@ -1,15 +1,13 @@
 <div class="w3-row-padding">
     {% for post in site.categories.projects %}
         <div class="w3-quarter w3-container w3-margin-bottom">
-            <a href="{{ post.external_link }}" style="color: black;">
-                <div class="w3-card-4 flex-container" style="width:100%">
-                    <img src="{{ site.baseurl }}{{ post.photo }}" alt="{{ post.photo }}">
-                    <div class="w3-container w3-center flex-container" style="height:50px; overflow: hidden;">
-                        <div style="padding-top: 10px;">
-                            <p><b>{{post.subtitle}}</b></p>
-                        </div>
+            <div onclick="document.getElementById('{{post.modal}}').style.display='block'" class="w3-card-4 flex-container" style="width:100%">
+                <img src="{{ site.baseurl }}{{ post.photo }}" alt="{{ post.photo }}">
+                <div class="w3-container w3-center flex-container" style="height:50px; overflow: hidden;">
+                    <div style="padding-top: 10px;">
+                        <p><b>{{post.subtitle}}</b></p>
                     </div>
-                </a>
+                </div>
                 <div class="w3-right-align" style="width: 100%; margin-bottom: 5px; margin-right: 5px;">
                     <button onclick="document.getElementById('{{post.modal}}').style.display='block'" class="w3-button w3-right w3-teal-light w3-small">More info</button>
                 </div>
