@@ -8,10 +8,10 @@
     {% if page.url != "/" %}
         <title>{{ page.title | escape }}</title>
     {% endif %}
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <!-- <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"> -->
     <link rel="stylesheet" href="{{ "/assets/sass/main.css" | relative_url }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+    <!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}"> -->
     <link rel="stylesheet" href="{{ "/assets/css/w3.css" | relative_url }}">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,4 +19,6 @@
     {% if jekyll.environment == 'production' %}
         {% include google-analytics.html %}
     {% endif %}
+
+    {% include facebook_tags.html %}
 </head>
