@@ -1,7 +1,7 @@
 ---
 
 title:  "Vagrant"
-date:   2017-03-31
+date:   2017-03-02
 categories: backend
 category: Backend
 photo: /assets/img/VAGRANT-logo.png

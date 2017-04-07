@@ -27,4 +27,4 @@ project created by: **Michał Jurkowski**
 * admin panel
 * backend
 
-Visit project page: [www.podralscy.pl](http://www.podralscy.pl/)
+Visit project page: <a href="http://www.podralscy.pl/" target="_blank">http://www.podralscy.pl</a>
