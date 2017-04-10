@@ -67,3 +67,34 @@ a:hover
     align-items: center;
     justify-content: center;
 }
+
+.showme {
+    display: none;
+    height: 100%;
+    position: relative;
+    z-index: 999;
+}
+.showhim:hover .showme {
+    display : flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333333;
+}
+
+
+.custom_hr_light{
+    height: 4px;
+    color: white;
+    background: white;
+    font-size: 0;
+    border: 0;
+    width: 450px;
+}
+
+.custom_hr_dark{
+    height: 4px;
+    color: #333333;
+    background: #333333;
+    font-size: 0;
+    border: 0;
+    width: 450px;
+}

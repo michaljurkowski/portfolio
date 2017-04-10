@@ -2,7 +2,7 @@
 
 title:  "Materialize css"
 date:   2017-03-31
-categories: frontend
+categories: tools
 category: Frontend
 photo: /assets/img/MATERIALIZE.png
 external_link: http://materializecss.com/

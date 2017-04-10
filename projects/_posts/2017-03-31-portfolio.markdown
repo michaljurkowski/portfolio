@@ -9,6 +9,7 @@ photo: /assets/img/portfolio.png
 modal: id2
 tags:
 - github pages
+- bootstrap
 - jekyll
 - sass
 - html 5
@@ -16,9 +17,8 @@ tags:
 - JQuery
 - JavaScript
 ---
-### Personal portfolio.
+### Personal portfolio
 project created by: **Michał Jurkowski**
 
-* frontend
 
 Visit project page: <a href="https://michaljurkowski.github.io/portfolio/" target="_blank">https://michaljurkowski.github.io/portfolio/</a>

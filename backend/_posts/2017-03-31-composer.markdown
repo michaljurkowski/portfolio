@@ -2,7 +2,7 @@
 
 title:  "Composer"
 date:   2017-03-08
-categories: backend
+categories: tools
 category: Backend
 photo: /assets/img/COMPOSER-logo.png
 external_link: https://getcomposer.org/

@@ -20,11 +20,10 @@ tags:
 - bootstrap
 - JQuery
 ---
-### Webpage for dental services.
+### Webpage for dental services
+
+
 project created by: **Michał Jurkowski**
 
-* frontend
-* admin panel
-* backend
 
 Visit project page: <a href="http://www.podralscy.pl/" target="_blank">http://www.podralscy.pl</a>

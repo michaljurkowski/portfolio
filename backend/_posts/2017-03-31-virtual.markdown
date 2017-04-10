@@ -2,7 +2,7 @@
 
 title:  "Virtual Box"
 date:   2017-03-01
-categories: backend
+categories: tools
 category: Backend
 photo: /assets/img/VIRTUAL-logo.jpg
 external_link: https://www.virtualbox.org/

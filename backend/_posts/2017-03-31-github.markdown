@@ -1,8 +1,8 @@
 ---
 
 title:  "GitLab"
-date:   2017-03-04
-categories: backend
+date:   2017-03-03
+categories: tools
 category: Backend
 photo: /assets/img/GITHUB-logo.jpg
 external_link: https://github.com/

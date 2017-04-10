@@ -2,7 +2,7 @@
 
 title:  "JavaScript"
 date:   2017-03-31
-categories: scripting
+categories: tools
 category: Scripting
 photo: /assets/img/JS-logo.png
 external_link: https://www.javascript.com/

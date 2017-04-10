@@ -2,7 +2,7 @@
 
 title:  "My Sql"
 date:   2017-03-30
-categories: backend
+categories: tools
 category: Backend
 photo: /assets/img/MYSQL-logo.png
 external_link: https://www.mysql.com/

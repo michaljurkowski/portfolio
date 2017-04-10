@@ -2,7 +2,7 @@
 
 title:  "Laravel"
 date:   2017-03-30
-categories: backend
+categories: tools
 category: Backend
 photo: /assets/img/LARAVEL-logo.png
 external_link: https://laravel.com/

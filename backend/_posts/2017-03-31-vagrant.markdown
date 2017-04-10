@@ -2,7 +2,7 @@
 
 title:  "Vagrant"
 date:   2017-03-02
-categories: backend
+categories: tools
 category: Backend
 photo: /assets/img/VAGRANT-logo.png
 external_link: https://www.vagrantup.com/
